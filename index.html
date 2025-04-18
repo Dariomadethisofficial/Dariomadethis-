@@ -12,115 +12,22 @@
 
   <!-- CSS Styling -->
   <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background: #0d0d0d;
-      color: #ffffff;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-
-    header {
-      background: #111;
-      padding: 2rem;
-      text-align: center;
-      border-bottom: 5px solid #800080;
-    }
-
-    header h1 {
-      font-size: 3.5rem;
-      margin: 0;
-      color: #f0e68c;
-      font-weight: bold;
-    }
-
-    header p {
-      font-size: 1.5rem;
-      color: #4b0082;
-      font-weight: bold;
-    }
-
-    section {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-      background: #2f2f2f;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-      border: 3px solid #800080;
-    }
-
-    h2, h3 {
-      color: #4b0082;
-      font-weight: bold;
-    }
-
-    .highlight {
-      color: #800080;
-      font-weight: bold;
-    }
-
-    .links a {
-      display: block;
-      margin: 1rem 0;
-      color: #00bfff;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-
-    .links a:hover {
-      text-decoration: underline;
-      color: #b45fba;
-    }
-
-    .button {
-      padding: 15px 30px;
-      background: #800080;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      text-align: center;
-      display: inline-block;
-      margin-top: 1rem;
-      font-size: 1.2rem;
-      width: 100%;
-    }
-
-    .button:hover {
-      background: #b45fba;
-    }
-
-    iframe {
-      display: block;
-      margin: 20px auto;
-      width: 100%;
-      height: 450px;
-      border: none;
-      border-radius: 10px;
-    }
-
-    footer {
-      background: #111;
-      text-align: center;
-      padding: 1.5rem;
-      font-size: 1rem;
-      color: #f0e68c;
-      border-top: 5px solid #800080;
-    }
-
+    body { font-family: Arial, sans-serif; background: #0d0d0d; color: white; margin: 0; padding: 0; }
+    header { background: #111; padding: 2rem; text-align: center; }
+    header h1 { font-size: 2.5rem; margin: 0; color: #f0e68c; } /* Gold for royalty */
+    section { padding: 2rem; max-width: 1000px; margin: auto; }
+    .highlight { color: #00ffcc; }
+    .links a { display: block; margin: 0.5rem 0; color: #00ffcc; text-decoration: none; font-weight: bold; }
+    .button { padding: 10px 20px; background: #800080; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; }
+    footer { background: #111; text-align: center; padding: 1rem; font-size: 0.8rem; color: white; }
+    iframe { display: block; margin: 20px auto; width: 100%; height: 315px; border: none; }
+    
     /* Make the site mobile-friendly */
     @media (max-width: 768px) {
       body { padding: 10px; }
-      header h1 { font-size: 2.5rem; }
+      header h1 { font-size: 2rem; }
       section { padding: 1rem; }
-      .button {
-        font-size: 1rem;
-      }
     }
-
   </style>
 </head>
 
@@ -135,28 +42,22 @@
     <p>Dariomadethis isn’t here to fit in—he’s here to dominate. Straight outta Indianapolis with the soul of XXXTentacion, the genius of Kanye, and the hunger of 50 Cent. Emotional. Relentless. Iconic. This is more than music—it’s a takeover.</p>
     <p class="highlight">“Who made this shit?” You already know.</p>
 
-    <h3>Navigate the Site:</h3>
-    <p><strong>Welcome to the official site of Dariomadethis! Here's where you can:</strong></p>
-    <ul>
-      <li><strong>Discover more about my journey:</strong> Read the latest updates, press releases, and personal stories in the "About" section.</li>
-      <li><strong>Stay updated with my music:</strong> Check out my latest tracks on my YouTube channel and catch exclusive content on Instagram.</li>
-      <li><strong>Get in touch:</strong> Reach out via email for any inquiries or collaborations!</li>
-    </ul>
-
     <h3>Follow the Wave:</h3>
     <div class="links">
-      <a href="https://www.instagram.com/dariomadethis?igsh=MW9rOWZlbzZ0ZmZxZA==" target="_blank">Instagram</a>
+      <a href="https://www.instagram.com/dariomadethis" target="_blank">Instagram</a>
       <a href="https://youtube.com/@dariomadethis" target="_blank">YouTube</a>
       <a href="https://www.facebook.com/share/1677i5EWz5" target="_blank">Facebook</a>
     </div>
 
-    <h3>Instagram Feed:</h3>
-    <p>Here’s a glimpse of what’s happening on my Instagram. Check out the latest posts below!</p>
-    <iframe src="https://www.instagram.com/p/DIcgIXgsWf-/embed" title="Instagram Post" width="400" height="480" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
-
     <h3>Watch the Latest:</h3>
     <a href="https://www.instagram.com/reel/DIcgIXgsWf-/?igsh=eGIxcTVyYzlhNWo3" target="_blank" class="button">Watch on Instagram</a>
     <iframe src="https://www.youtube.com/embed/UilPxzt8w1I?si=waeFYRN3PV2NDi14" title="Ain't Worried" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- Unreleased Music Section -->
+    <h3>Unreleased Music by Dariomadethis - Exclusives</h3>
+    <p>Get a sneak peek of the unreleased tracks only available here. Stay tuned for more exclusives!</p>
+    
+    <iframe src="https://www.instagram.com/reel/DIcgIXgsWf-/?igsh=eGIxcTVyYzlhNWo3/embed" width="100%" height="500" frameborder="0" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
 
     <h3>Contact</h3>
     <p>Email: <a href="mailto: monteenez@gmail.com">monteenez@gmail.com</a></p>
