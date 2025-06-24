@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- SEO Meta Tags -->
+<meta name="description" content="DarioMadeThis: The Vault - Unreleased demo album with prophetic sound, tier 400 energy, and legendary music. Listen to Dario’s raw, pre-industry voice now.">
+<meta name="keywords" content="DarioMadeThis, unreleased music, demo album, prophetic sound, tier 400 energy, Taurus rapper, rising artist, Indianapolis music, spiritual rap, music vault, music prophecy, underground heat">
+<meta name="author" content="DarioMadeThis">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="DarioMadeThis: The Vault 🔒">
+<meta property="og:description" content="Unreleased music with divine energy. This is what Dario sounded like before the crown was seen.">
+<meta property="og:image" content="https://your-site-link.com/banner.jpg"> <!-- Replace with actual image URL -->
+<meta property="og:url" content="https://dariomadethis.github.io">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DarioMadeThis: The Vault 🔒">
+<meta name="twitter:description" content="Exclusive unreleased demo album from DarioMadeThis. Enter the vault.">
+<meta name="twitter:image" content="https://your-site-link.com/banner.jpg"> <!-- Replace with actual image URL -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DarioMadeThis: The Vault</title>
