@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DarioMadeThis: The Vault</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #0a0a0a;
+      color: #f5f5f5;
+      background-image: linear-gradient(180deg, #0a0a0a, #1a1a1a);
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    p.tagline {
+      font-size: 1.2rem;
+      color: #999;
+      margin-top: 0.5rem;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .tracklist h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .track {
+      margin-bottom: 1.5rem;
+    }
+    .track h3 {
+      margin: 0 0 0.3rem;
+      font-size: 1.2rem;
+    }
+    .about, .contact {
+      margin-top: 4rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DarioMadeThis: The Vault 🔒</h1>
+    <p class="tagline">Unreleased. Undeniable. Tier 400 Energy 🐂♉</p>
+  </header>
+
+  <section class="tracklist">
+    <h2>Demo Tracks 🎧</h2>
+    <div class="track">
+      <h3>01. Tier 400 (Rough Cut)</h3>
+      <audio controls src="audio/tier400.mp3"></audio>
+    </div>
+    <div class="track">
+      <h3>02. Broke The Silence (Unmixed Truth)</h3>
+      <audio controls src="audio/brokethesilence.mp3"></audio>
+    </div>
+    <div class="track">
+      <h3>03. I Don’t Respond (Vault Mix)</h3>
+      <audio controls src="audio/idontrespond.mp3"></audio>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>👁️ About This Vault</h2>
+    <p>This ain’t just music — it’s prophecy. These tracks are unreleased pieces of my journey, locked in while I rose silently through the storm. No fake hype. No filters. Just raw alignment, before the world could catch up. This is what it sounded like *before the crown was seen.*</p>
+  </section>
+
+  <section class="contact">
+    <h2>📲 Connect With Dario</h2>
+    <p>
+      Instagram: <a href="https://instagram.com/dariomadethis" target="_blank">@dariomadethis</a><br>
+      YouTube: <a href="https://youtube.com/@dariomadethis" target="_blank">youtube.com/@dariomadethis</a><br>
+      GitHub: <a href="https://github.com/dariomadethis" target="_blank">github.com/dariomadethis</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>“Who made this shit?” – DarioMadeThis 👑</p>
+  </footer>
+</body>
+</html>
